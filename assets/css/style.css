@@ -1,0 +1,138 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+.nav_bar{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.language{
+    padding-right: 30px;
+    border-right: 1px solid #000;
+}
+
+.language select{
+    border: none;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.menu ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.menu-btn{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+
+.menu-btn .sign_in{
+    text-decoration: none;
+    color: #FD5631;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-btn .sell{
+    text-decoration: none;
+    background-color: #FD5631;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero{
+    margin-top: 40px;
+    background-image: url(../img/hero.png);
+    height: 480px;
+    background-size: cover;
+}
+
+.hero .title {
+    width: 570px;
+    font-size: 50px;
+    padding-top: 75px;
+}
+
+.hero .subtitle {
+    width: 450px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+/* features */
+.features {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.features a{
+    text-decoration: none;
+    color: #000;
+}
+
+.feature {
+    width: 195px;
+    height: 135px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0px 16px 2px rgb(0 0 0 / 9%);
+    padding-top: 20px;
+    display: block;
+}
+
+.feature:hover {
+    box-shadow: 0 0px 16px 10px rgb(0 0 0 / 25%);
+}
+
+.feature:hover .icon {
+    background-color: #fd5631;
+    color: #fff;
+}
+
+.feature .icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(253 86 49 / 10%);
+    color: #fd5631;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature .title {
+    text-decoration: none;
+    color: #000;
+}
